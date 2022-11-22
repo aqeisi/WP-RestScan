@@ -1,0 +1,8 @@
+requests
+json
+sys
+argparse
+traceback
+re
+termcolor
+pyfiglet
