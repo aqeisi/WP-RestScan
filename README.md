@@ -20,11 +20,11 @@ Unlike most tools that look for unpatched plugins and scans for newly released C
 
 ``` --oob -> Fills every 'url' parameter in the fetched endpoints with your provided out of band URL e.g. burp collaborator/webhook.site```
 
-``` --media -> Only check for media/image access control issues```
+``` --media -> Only check for issues in media/images endpoints```
 
-``` --users -> Only check for users access control issues```
+``` --users -> Only check for issues in user endpoints```
 
-``` --posts -> Only check for posts access control issues```
+``` --posts -> Only check for issues in post endpoints```
 
 ## Example issues that can be detected:
 - Delete any/all wordpress users/posts/images on the website from an unauthenticated user.
