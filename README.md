@@ -31,6 +31,6 @@ Unlike most tools that look for unpatched plugins and scans for newly released C
 - Create a new post on behalf of an administrator.
 - SSRF via well known plugin endpoints.
 
-![image](https://user-images.githubusercontent.com/84850150/203380446-14966d9c-0f96-46a5-a999-03c71b1887c2.png)
+![image](https://user-images.githubusercontent.com/84850150/203382120-ac7b934a-f123-416e-af98-7696c3dd1ce1.png)
 
 
