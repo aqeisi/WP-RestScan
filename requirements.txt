@@ -1,7 +1,4 @@
 requests
-sys
 argparse
-traceback
-re
 termcolor
 pyfiglet
