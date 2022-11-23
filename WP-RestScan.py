@@ -167,7 +167,6 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="WP-REST-SCAN",usage="\nFull Scan\npython3 wp-rest-scan.py -u https://wordpress.blog\n\nAdd OOB Url\npython3 wp-rest-scan.py -u https://wordpress.blog -oob https://webhook.server\n\nMedia/Image Endpoints Only\npython3 wp-rest-scan.py -u https://wordpress.blog --media\n\nUser Endpoints Only\npython3 wp-rest-scan.py -u https://wordpress.blog --users\n\nPosts Endpoints Only\npython3 wp-rest-scan.py -u https://wordpress.blog --posts")
 	parser.add_argument("-u", "--url", help="Wordpress URL", required=True)
 	parser.add_argument("-oob","--oob", nargs="?", const="default-oob-url",default="default-oob-url")
-	#parser.add_argument("-m","--media", nargs="?", const=0,default=0)
 	parser.add_argument("-m","--media",default=False, required=False, const=True, nargs='?')
 	parser.add_argument("-us","--users",default=False, required=False, const=True, nargs='?')
 	parser.add_argument("-p","--posts",default=False, required=False, const=True, nargs='?')
