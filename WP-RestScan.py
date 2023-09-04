@@ -11,7 +11,7 @@ from pyfiglet import Figlet
 headers = {"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"} 			# Spoof UA
 proxies={"http":"http://127.0.0.1:8080","https":"https://127.0.0.1:8080"}										# proxy settings
 line_width = 170
-	
+#	
 
 def fetchdata():
 	global mediaflag,postsflag,usersflag,mediaID,postID,userID
