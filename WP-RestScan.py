@@ -51,7 +51,7 @@ def fetchdata():
 	return r
 	
 def banner():
-	banner = Figlet(font='future')
+	banner = Figlet(font='standard')
 	print(banner.renderText('WP-REST-SCAN'))
 	
 
