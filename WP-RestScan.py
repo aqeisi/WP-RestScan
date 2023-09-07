@@ -109,11 +109,11 @@ def main():
 		for endpoint in routes[route]['endpoints']:
 			for method in endpoint['methods']:
 				if '?P' in route:
-					if '/media' in route and mediaID:
+					if '/media' in route and 'mediaID' in locals() and mediaID:
 						route = re.sub("\(\?P.+\)",str(mediaID),route)
-					elif '/posts' in route and postID:
+					elif '/posts' in route and 'postID' in locals() and postID:
 						route = re.sub("\(\?P.+\)",str(postID),route)
-					elif '/users' in route and userID:
+					elif '/users' in route and 'userID' in locals() and userID:
 						route = re.sub("\(\?P.+\)",str(userID),route)
 					else:
 						route = re.sub("\(\?P.+\)","1",route)
